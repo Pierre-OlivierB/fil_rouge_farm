@@ -16,7 +16,7 @@
   --hart: 50vh;
 }
 body {
-  min-height: 100vh;
+  height: 100%;
   background: linear-gradient(to top, var(--ymeal), var(--gmeal));
   padding: 5px;
 }
