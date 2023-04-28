@@ -16,7 +16,7 @@
   --hart: 50vh;
 }
 body {
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(to top, var(--ymeal), var(--gmeal));
   padding: 5px;
 }
@@ -48,6 +48,8 @@ section {
   width: var(--wele);
 }
 article {
-  height: var(--hart);
-  width: 100vw;
+  /* max-height: var(--hart); */
+  margin-bottom: 20px;
+  margin-top: 20px;
+  max-width: 100vw;
 }
